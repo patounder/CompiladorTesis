@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="Dependencies" size="1111,1132" id="." metadata="uml2-1.0" initialized="true" scrolledY="308" tag="10" key="32303037303533312D3130204D696C65">
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.5/@sourceConnections.0" name="MileTreeParserTokenTypes" location="840,600" size="234,42" id="mileCompiler.compilers/MileTreeParserTokenTypes">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Tool" location="323,506" size="98,42" id="mileCompiler/Tool">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="mileCompiler/Tool-Standard::Instantiate->mileCompiler.compilers/mileLexer*mileCompiler/Tool-Standard::Call->mileCompiler.compilers/mileLexer*mileCompiler/Tool-Soyatec::Import->mileCompiler.compilers/mileLexer" source="//@children.1" target="//@children.10" targetEnd="//@children.1/@sourceConnections.0/@children.2" label="//@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Instantiate, Call»" size="148,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="2,42" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="125,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="mileCompiler/Tool-Standard::Instantiate->mileCompiler.compilers/MileParser*mileCompiler/Tool-Soyatec::Import->mileCompiler.compilers/MileParser*mileCompiler/Tool-Standard::Call->mileCompiler.compilers/MileParser" source="//@children.1" target="//@children.11" targetEnd="//@children.1/@sourceConnections.1/@children.2" label="//@children.1/@sourceConnections.1/@children.0" sourceEnd="//@children.1/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Instantiate, Call»" size="148,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,4" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="138,42"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="mileCompiler/Tool-Soyatec::Import->mileCompiler.compilers/MileTreeParser*mileCompiler/Tool-Standard::Call->mileCompiler.compilers/MileTreeParser*mileCompiler/Tool-Standard::Instantiate->mileCompiler.compilers/MileTreeParser" source="//@children.1" target="//@children.5" targetEnd="//@children.1/@sourceConnections.2/@children.2" label="//@children.1/@sourceConnections.2/@children.0" sourceEnd="//@children.1/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Instantiate, Call»" size="148,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="98,40" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="24,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="mileCompiler/Tool-Soyatec::Import->mileCompiler.compilers/MileCodeGen*mileCompiler/Tool-Standard::Call->mileCompiler.compilers/MileCodeGen*mileCompiler/Tool-Standard::Instantiate->mileCompiler.compilers/MileCodeGen" source="//@children.1" target="//@children.6" targetEnd="//@children.1/@sourceConnections.3/@children.2" label="//@children.1/@sourceConnections.3/@children.0" sourceEnd="//@children.1/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Instantiate, Call»" size="148,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="98,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="28,42"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.11/@sourceConnections.0" name="mileParserVocabTokenTypes" location="45,300" size="249,42" id="mileCompiler.compilers/mileParserVocabTokenTypes">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.9/@sourceConnections.0" name="Constantes" location="420,904" size="157,42" id="mileCompiler.compilers/Constantes">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="mileCompiler.compilers/Constantes-Standard::Derive->mileCompiler.compilers/Variable" source="//@children.3" target="//@children.8" targetEnd="//@children.3/@sourceConnections.0/@children.2" label="//@children.3/@sourceConnections.0/@children.0" sourceEnd="//@children.3/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Derive»" size="50,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="157,21" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,21"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.6/@sourceConnections.0" name="CodeGenerator" location="525,300" size="157,42" id="mileCompiler.compilers/CodeGenerator">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.2" name="MileTreeParser" location="534,600" size="157,42" id="mileCompiler.compilers/MileTreeParser">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="mileCompiler.compilers/MileTreeParser-Soyatec::Implement->mileCompiler.compilers/MileTreeParserTokenTypes" source="//@children.5" target="//@children.0" targetEnd="//@children.5/@sourceConnections.0/@children.2" label="//@children.5/@sourceConnections.0/@children.0" sourceEnd="//@children.5/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Implement»" size="74,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="157,21" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,21"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="mileCompiler.compilers/MileTreeParser-Standard::Instantiate->mileCompiler.compilers/SemanticInspector*mileCompiler.compilers/MileTreeParser-Standard::Call->mileCompiler.compilers/SemanticInspector*mileCompiler.compilers/MileTreeParser-Soyatec::Import->mileCompiler.compilers/SemanticInspector" source="//@children.5" target="//@children.9" targetEnd="//@children.5/@sourceConnections.1/@children.2" label="//@children.5/@sourceConnections.1/@children.0" sourceEnd="//@children.5/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Instantiate, Call»" size="148,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="78,42" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="78,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.3" name="MileCodeGen" location="534,405" size="157,42" id="mileCompiler.compilers/MileCodeGen">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="mileCompiler.compilers/MileCodeGen-Standard::Instantiate->mileCompiler.compilers/CodeGenerator*mileCompiler.compilers/MileCodeGen-Standard::Call->mileCompiler.compilers/CodeGenerator*mileCompiler.compilers/MileCodeGen-Soyatec::Import->mileCompiler.compilers/CodeGenerator" source="//@children.6" target="//@children.4" targetEnd="//@children.6/@sourceConnections.0/@children.2" label="//@children.6/@sourceConnections.0/@children.0" sourceEnd="//@children.6/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Instantiate, Call»" size="148,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="73,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="82,42"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="mileCompiler.compilers/MileCodeGen-Soyatec::Implement->mileCompiler.compilers/MileCodeGenTokenTypes" source="//@children.6" target="//@children.7" targetEnd="//@children.6/@sourceConnections.1/@children.2" label="//@children.6/@sourceConnections.1/@children.0" sourceEnd="//@children.6/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Implement»" size="74,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="157,21" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,21"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.6/@sourceConnections.1" name="MileCodeGenTokenTypes" location="825,405" size="222,42" id="mileCompiler.compilers/MileCodeGenTokenTypes">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@sourceConnections.0 //@children.9/@sourceConnections.1" name="Variable" location="750,904" size="157,42" id="mileCompiler.compilers/Variable">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.5/@sourceConnections.1" name="SemanticInspector" location="534,720" size="179,42" id="mileCompiler.compilers/SemanticInspector">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="mileCompiler.compilers/SemanticInspector-Soyatec::Import->mileCompiler.compilers/Constantes*mileCompiler.compilers/SemanticInspector-Standard::Call->mileCompiler.compilers/Constantes*mileCompiler.compilers/SemanticInspector-Standard::Instantiate->mileCompiler.compilers/Constantes" source="//@children.9" target="//@children.3" targetEnd="//@children.9/@sourceConnections.0/@children.2" label="//@children.9/@sourceConnections.0/@children.0" sourceEnd="//@children.9/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Instantiate, Call»" size="148,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="21,42" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="135,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="mileCompiler.compilers/SemanticInspector-Standard::Call->mileCompiler.compilers/Variable*mileCompiler.compilers/SemanticInspector-Standard::Instantiate->mileCompiler.compilers/Variable*mileCompiler.compilers/SemanticInspector-Soyatec::Import->mileCompiler.compilers/Variable" source="//@children.9" target="//@children.8" targetEnd="//@children.9/@sourceConnections.1/@children.2" label="//@children.9/@sourceConnections.1/@children.0" sourceEnd="//@children.9/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Instantiate, Call»" size="148,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="112,42" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="55,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.0" name="mileLexer" location="84,600" size="157,42" id="mileCompiler.compilers/mileLexer">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="mileCompiler.compilers/mileLexer-Soyatec::Implement->mileCompiler.compilers/mileLexerVocabTokenTypes" source="//@children.10" target="//@children.12" targetEnd="//@children.10/@sourceConnections.0/@children.2" label="//@children.10/@sourceConnections.0/@children.0" sourceEnd="//@children.10/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Implement»" size="74,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="78,42" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="102,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.1" name="MileParser" location="60,424" size="157,42" id="mileCompiler.compilers/MileParser">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="mileCompiler.compilers/MileParser-Soyatec::Implement->mileCompiler.compilers/mileParserVocabTokenTypes" source="//@children.11" target="//@children.2" targetEnd="//@children.11/@sourceConnections.0/@children.2" label="//@children.11/@sourceConnections.0/@children.0" sourceEnd="//@children.11/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Implement»" size="74,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="78,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="93,42"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.10/@sourceConnections.0" name="mileLexerVocabTokenTypes" location="60,727" size="241,42" id="mileCompiler.compilers/mileLexerVocabTokenTypes">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" interactive="false" level="-1" properties="libraryFilter=;ModelFrozen=true;ComputedContent=true;displayOptions=1;open=mileCompiler.compilers/mileLexer,mileCompiler.compilers/Constantes,mileCompiler.compilers/CodeGenerator,mileCompiler.compilers/MileTreeParser,mileCompiler.compilers/SemanticInspector,mileCompiler.compilers/MileCodeGen,mileCompiler/Tool,mileCompiler.compilers/MileParser,mileCompiler.compilers/MileCodeGenTokenTypes,mileCompiler.compilers/mileLexerVocabTokenTypes,mileCompiler.compilers/Variable,mileCompiler.compilers/mileParserVocabTokenTypes,mileCompiler.compilers/MileTreeParserTokenTypes;Product=eDepend;link=mileCompiler.compilers/MileParser-Soyatec::Implement->mileCompiler.compilers/mileParserVocabTokenTypes,mileCompiler.compilers/SemanticInspector-Soyatec::Import->mileCompiler.compilers/Constantes,mileCompiler.compilers/SemanticInspector-Standard::Call->mileCompiler.compilers/Constantes,mileCompiler.compilers/MileTreeParser-Soyatec::Implement->mileCompiler.compilers/MileTreeParserTokenTypes,mileCompiler/Tool-Standard::Instantiate->mileCompiler.compilers/mileLexer,mileCompiler.compilers/mileLexer-Soyatec::Implement->mileCompiler.compilers/mileLexerVocabTokenTypes,mileCompiler.compilers/MileCodeGen-Standard::Instantiate->mileCompiler.compilers/CodeGenerator,mileCompiler.compilers/SemanticInspector-Standard::Instantiate->mileCompiler.compilers/Constantes,mileCompiler.compilers/MileTreeParser-Standard::Instantiate->mileCompiler.compilers/SemanticInspector,mileCompiler.compilers/Constantes-Standard::Derive->mileCompiler.compilers/Variable,mileCompiler/Tool-Standard::Instantiate->mileCompiler.compilers/MileParser,mileCompiler.compilers/SemanticInspector-Standard::Call->mileCompiler.compilers/Variable,mileCompiler.compilers/MileCodeGen-Standard::Call->mileCompiler.compilers/CodeGenerator,mileCompiler.compilers/MileTreeParser-Standard::Call->mileCompiler.compilers/SemanticInspector,mileCompiler/Tool-Soyatec::Import->mileCompiler.compilers/MileTreeParser,mileCompiler.compilers/MileTreeParser-Soyatec::Import->mileCompiler.compilers/SemanticInspector,mileCompiler.compilers/SemanticInspector-Standard::Instantiate->mileCompiler.compilers/Variable,mileCompiler/Tool-Soyatec::Import->mileCompiler.compilers/MileParser,mileCompiler/Tool-Standard::Call->mileCompiler.compilers/MileParser,mileCompiler/Tool-Soyatec::Import->mileCompiler.compilers/MileCodeGen,mileCompiler/Tool-Standard::Call->mileCompiler.compilers/MileTreeParser,mileCompiler/Tool-Standard::Call->mileCompiler.compilers/MileCodeGen,mileCompiler.compilers/MileCodeGen-Soyatec::Implement->mileCompiler.compilers/MileCodeGenTokenTypes,mileCompiler/Tool-Standard::Call->mileCompiler.compilers/mileLexer,mileCompiler.compilers/MileCodeGen-Soyatec::Import->mileCompiler.compilers/CodeGenerator,mileCompiler/Tool-Standard::Instantiate->mileCompiler.compilers/MileCodeGen,mileCompiler/Tool-Standard::Instantiate->mileCompiler.compilers/MileTreeParser,mileCompiler/Tool-Soyatec::Import->mileCompiler.compilers/mileLexer,mileCompiler.compilers/SemanticInspector-Soyatec::Import->mileCompiler.compilers/Variable;dependencyFilter=Standard::Derive,Soyatec::Implement,Standard::Instantiate,Standard::Create,Standard::Call,Standard::Send,Soyatec::Access,Soyatec::Import,;wireOptions=4"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" shortPackageNameFormat="true" showDependencyStereotype="true" showEnumerationStereotype="false" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+</editmodel:ClassDiagramEditModel>

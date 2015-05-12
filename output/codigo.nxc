@@ -1,0 +1,37 @@
+#define var1 13
+int var2;
+float var4;
+
+task main(){
+
+	var4=12.3987;
+	var2=var1+120;
+	OnFwd(OUT_A,75);
+	Wait(var2*1000);
+	OnRev(OUT_A,75);
+	Wait(var1*1000);
+	RotateMotor( OUT_A, 50, 360);
+	
+	if(var2 < var1){
+
+		OnFwd(OUT_B,75);
+		Wait(8*1000);
+	}
+	
+	repeat(8){
+		OnFwd(OUT_B,75);
+		Wait(12*1000);
+		OnRev(OUT_B,75);
+		Wait(8*1000);
+		Off(OUT_B);
+		NumOut(10,10,var2, true);
+	}
+	
+	while(var1 < var2){
+		OnFwd(OUT_B,75);
+		Wait(12*1000);
+		OnRev(OUT_A,75);
+		Wait(2*1000);
+	}
+
+}

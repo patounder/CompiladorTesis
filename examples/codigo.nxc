@@ -1,0 +1,20 @@
+task main(){
+
+	OnFwdReg(OUT_AB,75,OUT_REGMODE_SYNC);
+	Wait(5*1000);
+	OnRevReg(OUT_AB,75,OUT_REGMODE_SYNC);
+	Wait(5*1000);
+	TextOut(10,10,"Fin del programa");
+	Wait(5000);
+	
+	if(1 < 0){
+
+		TextOut(10,10,"Fin del programa");
+	}
+	else{
+
+		TextOut(10,10,"Fin del programaaaa");
+	}
+
+
+}

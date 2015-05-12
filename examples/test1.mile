@@ -1,0 +1,31 @@
+Constante Entero var1 13
+Entero var2
+Real var4
+
+Inicio del programa
+	
+	var4 = 12.12312
+	var2 = var1 + 120
+	Avanzar MOTOR_A var2 segundos 
+	Retroceder MOTOR_A var1 segundos 
+	Girar adelante MOTOR_A 
+	
+	Si var2 < var1 entonces  
+		Avanzar MOTOR_B  8 segundos 
+	Fin Si
+	
+	//var1 = 12.5
+	
+	Repetir 8 veces 
+		Avanzar MOTOR_B 12 segundos 
+		Retroceder MOTOR_B 8 segundos
+		Apagar MOTOR_B
+		Imprimir var2
+	Fin Repetir 
+		
+	Mientras var1 < var2  entonces 
+		Avanzar MOTOR_B 12 segundos
+		Retroceder MOTOR_A 2 segundos 
+	Fin Mientras
+
+Fin del programa

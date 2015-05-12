@@ -1,0 +1,13 @@
+inicio del programa 
+	
+	avanzar MOTOR_A MOTOR_B sincronizados 5 segundos
+	retroceder MOTOR_A MOTOR_B sincronizados 5 segundos
+	imprimir "Fin del programa"
+	mantener 5 segundos
+	si 1<0 entonces
+		imprimir "Fin del programa"
+	sino 
+		imprimir "Fin del programaaaa"
+	fin si
+	 
+fin del programa  
